@@ -11,6 +11,7 @@ mixer.music.play()
 pg.init()
 
 # --------- DISPLAY WINDOW ---------
+
 a=pg.display.set_mode((1000,650)) # setting the size of display window
 pg.display.set_caption('Hangman') # sets a name to the pygame window pop up
 
@@ -83,7 +84,7 @@ def draw(f,word): # deals with the hangman figures, colours, bg colour etc
     global cl1,cl2,cl3,cl4,cl5,cl6,letters, guessed, position
 
     # --------- BACKGROUND ---------
-    a.fill((0,190,255)) # light blue colour for the bg (R,G,B)
+    a.fill((255,182,193)) # light blue colour for the bg (R,G,B)
 
 
     # --------- CLOUDS ---------
